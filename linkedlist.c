@@ -23,5 +23,8 @@ int main (int argc, char const *argv[])
   printf("Delete 1 **************\n");
   print_list(linkedlist);
   
+  printf("Get 2 **************\n");
+  printf("[2] = %s\n", get(linkedlist,2));
+  
   return EXIT_SUCCESS;
 }

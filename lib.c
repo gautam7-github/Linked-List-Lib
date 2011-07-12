@@ -39,6 +39,17 @@ struct node *del(struct node *list, int key) {
   return list;
 }
 
+char *get(struct node *list, int key) {
+  if (!list)
+    return "Empty list";
+  struct node *aux;
+  char *val = "Not Found";
+  for (aux=list; aux; aux=aux->next)
+    if (aux->key == key)
+      val = strdup(aux->val);
+  return val;
+}
+
 void print_list(struct node *list) {
   struct node *aux = list;
   for (aux=list; aux ; aux=aux->next)
