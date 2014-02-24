@@ -11,7 +11,7 @@ Basic singly linked list library implemented in C.
   * Get
       Returns a value passing a key
 
-### Data Sctructure
+### Data Structure
 
 ``` c
 struct node {
