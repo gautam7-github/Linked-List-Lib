@@ -25,6 +25,6 @@ int main (int argc, char const *argv[])
 
   printf("Get 2 **************\n");
   printf("[2] = %s\n", get(linkedlist,2));
-
+  printf("CODE EXECUTED WITH NO ERROR(S)");
   return EXIT_SUCCESS;
 }
